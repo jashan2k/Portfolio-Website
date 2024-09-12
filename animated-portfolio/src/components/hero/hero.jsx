@@ -56,6 +56,14 @@ export const Hero = () => {
               See the Latest Works
             </motion.button>
             <motion.button variants={textVariants}>Contact Me</motion.button>
+            <motion.button variants={textVariants}>Download CV</motion.button>
+            {/* <a
+              href={"/publiclic/jashan-cv.pdf"}
+              download="jashan-cv"
+              target="_blank"
+            >
+              <Button className={classes.navLink}>My Example Doc</Button>
+            </a> */}
           </motion.div>
           <motion.img
             variants={textVariants}
