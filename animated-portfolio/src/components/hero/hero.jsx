@@ -50,7 +50,9 @@ export const Hero = () => {
           animate="animate"
         >
           <motion.h2 variants={textVariants}>Jashandeep Singh</motion.h2>
-          <motion.h1 variants={textVariants}>Full Stack Developer</motion.h1>
+          <motion.h1 variants={textVariants}>
+            Full Stack Web Developer
+          </motion.h1>
           <motion.div className="buttons" variants={textVariants}>
             <motion.button variants={textVariants}>
               See the Latest Works

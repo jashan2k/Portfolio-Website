@@ -9,9 +9,12 @@ const items = [
     img: "rider-image.jpeg",
     desc: "Want to commute easily? Ride it with Riderrr. Giving Power of Mobility to the average commuter by creating a bridge between 2-wheeler owners and users, creating Win-Win Situation For both.",
   },
-  { id: 2, title: "DROWSINESS DETECTOR APPLICATION", img: "", desc: "" },
-  { id: 3, title: "React Commerce", img: "", desc: "" },
-  { id: 4, title: "React Commerce", img: "", desc: "" },
+  {
+    id: 2,
+    title: "DROWSINESS DETECTOR APP",
+    img: "drowsiness.png",
+    desc: "The aim of this system is to reduce the number of accidents on the road by detecting the drowsiness of the driver and warning them using an alarm.",
+  },
 ];
 
 const Single = ({ item }) => {
